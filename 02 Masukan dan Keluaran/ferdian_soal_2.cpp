@@ -1,10 +1,8 @@
 #include<iostream>
-#include<string>
 using namespace std;
-
 int main() {
-    string a;
-    getline(cin, a);
-    cout << a;
+    string kalimat;
+    getline(cin, kalimat);
+    cout << kalimat;
     return 0;
 }

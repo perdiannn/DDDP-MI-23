@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
-
 int main() {
-    float p, q;
-    cin >> p >> q;
-    cout<<"Hasil dari Penjumlahan"<<" "<<p<<" "<<"dengan"<<" "<<q<<" "<<"adalah"<<" "<<p + q<<endl;
-    cout<<"Hasil dari Pengurangan"<<" "<<p<<" "<<"dengan"<<" "<<q<<" "<<"adalah"<<" "<<p - q<<endl;
-    cout<<"Hasil dari Perkalian"<<" "<<p<<" "<<"dengan"<<" "<<q<<" "<<"adalah"<<" "<<p * q<<endl;
-    cout<<"Hasil dari Pembagian"<<" "<<p<<" "<<"dengan"<<" "<<q<<" "<<"adalah"<<" "<<p / q<<endl;
+    float nilai1, nilai2;
+    cin >> nilai1 >> nilai2;
+    cout<<"Hasil dari Penjumlahan " << nilai1 << " dengan " << nilai2 << " adalah " << nilai1 + nilai2 << endl;
+    cout<<"Hasil dari Pengurangan " << nilai1 << " dengan " << nilai2 << " adalah " << nilai1 - nilai2 << endl;
+    cout<<"Hasil dari Perkalian " << nilai1 << " dengan " << nilai2 << " adalah " << nilai1 * nilai2 << endl;
+    cout<<"Hasil dari Pembagian " << nilai1 << " dengan " << nilai2 << " adalah " << nilai1 / nilai2 << endl;
+    
     return 0;
 }
