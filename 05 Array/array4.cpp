@@ -11,7 +11,6 @@ int main() {
     cin >> jum_kolom;
     cout << endl;
 
-    // proses input array
     for (i = 0; i < jum_baris; i++) {
         for (j = 0; j < jum_kolom; j++) {
             cout << "Baris " << i + 1 << ", kolom " << j + 1 << " = ";
@@ -21,7 +20,6 @@ int main() {
     }
     cout << "Hasil matriks: " << endl;
 
-    // menampilkan array
     for (i = 0; i < jum_baris; i++) {
         for (j = 0; j < jum_kolom; j++) {
             cout << matriks[i][j] << " ";
